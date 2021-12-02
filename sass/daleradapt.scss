@@ -1,0 +1,300 @@
+@media only screen and (max-width: 1920px) {
+    header {
+        .menu {
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .def-width-big {
+        max-width: 93%;
+        margin: 0 auto;
+    }
+    .def-width-middle {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .active_button {
+        font-size: 14px; 
+    }
+    .unactive_button {
+        font-size: 14px; 
+    }
+    .right-side-mobile {
+        display: flex !important;
+    }
+    .screen_one {
+        .heading {
+            .h1 {
+                width: 20em;
+                font-size: 40px;
+            }
+            .refer_down {
+                transform: translateY(225px);
+            }
+        }
+    }
+    header {
+        .left_side {
+            a {
+                display: none;
+            }
+        }
+        .menu {
+            display: block;
+        }    
+        .right_side {
+            display: none !important;
+        }
+    }
+    .staitstics-screen {
+        .heading {
+            .results {
+                .result-item {
+                    .row {
+                        span {
+                            font-size: 90px;
+                        }
+                    }
+                    .span-opacity {
+                        font-size: 14px;
+                    }
+
+                }
+            }
+        }
+    }
+    .item {
+        width: 310px !important;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .def-width-middle {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .active_button {
+        padding: 19px 30px;
+        font-size: 14px; 
+    }
+    .unactive_button {
+        padding: 19px 30px;
+        font-size: 14px; 
+    }
+    .screen_one {
+        .heading {
+            .h1 {
+                width: 20em;
+                font-size: 30px;
+            }
+            .refer_down {
+                transform: translateY(155px);
+            }
+        }
+    }
+    .item {
+        width: 250px !important;
+        .description {
+            .h3 {
+                font-size: 24px;
+            }
+            .note {
+                font-size: 14px;
+            }
+            div {
+                font-size: 14px;
+            }
+        }
+    }
+    .staitstics-screen {
+        .heading {
+            .results {
+                display: flex;
+                flex-wrap: wrap;
+                .result-item {
+                    .row {
+                        span {
+                            font-size: 90px;
+                        }
+                    }
+                    .span-opacity {
+                        font-size: 14px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .def-width-middle {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .screen_one {
+        .heading {
+            margin-top: 130px;
+            .h1 {
+                font-size: 30px;
+            }
+            .refer_down {
+                height: 70px;
+                transform: translateY(40px);
+            }
+        }
+    }
+    .active_button {
+        padding: 15px 20px;
+        font-size: 14px; 
+    }
+    .unactive_button {
+        padding: 15px 20px;
+        font-size: 14px; 
+    }
+    .products {
+        gap: 10px !important;
+        .item {
+            width: 200px !important;
+        }
+    }
+}
+@media only screen and (max-width: 650px) {
+    .none-for-mobile {
+        display: none !important;
+    }
+    .margin {
+        height: 80px;
+    } 
+    .def-width-middle {
+        max-width: 88%;
+        margin: 0 auto;
+    }
+    .def-width-big {
+        max-width: 88%;
+        margin: 0 auto;
+    }
+    .active_button {
+        font-size: 14px;
+        padding: 12px 20px; 
+        width: 100%;
+    }
+    .active_button:nth-child(3) {
+        background: none;
+        font-size: 14px;
+        padding: 0px 0px; 
+        color: black;
+        display: flex;
+        justify-content: start;
+    }
+
+    .unactive_button {
+        display: none;
+        justify-content: center;
+        font-size: 14px;
+        width: 100% !important;
+    }
+    .screen_bg {
+        .fr-screen-bg {
+            object-fit: cover;
+            height: 603px;
+        }
+    }
+    header {
+        top: 20px !important;
+        .menu-svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .mini_heading {
+        width: 100%;
+    }
+    /// logo for modal
+    .white-logo {
+        width: 40px;
+        object-fit: contain;
+        padding: 0px !important;
+    }
+    /// logo for modal
+    .screen_one {
+        .heading {
+            margin-top: 305px;
+            .h1 {
+                margin-bottom: 10px;
+                font-size: 28px;
+                width: 100%; 
+            }
+            .refer_down {
+                display: none !important;
+            }
+            .btns {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    .products {
+        .item {
+            width: 100% !important;
+            max-width: 465px;
+        }
+    }
+    .staitstics-screen .heading {
+        margin: 0 auto;
+        margin-top: 100px;
+        .result-item {
+            .row {
+                span {
+                    font-size: 75px !important;
+                }
+            }
+        }
+
+    }
+    .side-bar {
+        right: 0px;
+        bottom: 0px;
+        width: 100% !important;
+        height: 100% !important;
+        padding-top: 10px;
+        .close-btn {
+            top: 23px;
+        }
+    }
+    .modal-bg {
+        left: 100% !important;
+    }
+    .close-btn {
+        position: absolute;
+        right: 25px;
+        top: 20px;
+    }
+    .blue-logo {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .sortIcon {
+        fill: var(--grey-color);
+        padding-right: 11px;
+    }
+    .cart-to {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: start;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px 0px;
+        border-top: #E3E3E3 1px solid;
+        img {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+        }
+        span {
+            font-size: 18px;
+            color: var(--gray-color);
+        }
+    }
+}

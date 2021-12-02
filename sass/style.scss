@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Gilroy";
+    // font-family: sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+    top: 45px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    .left_side {
+        display: flex;
+        align-items: center;
+        img {
+            padding-right: 36px;
+        }
+        a {
+            color: var(--body-color);
+            padding: 0px 36px;
+            font-size: 18px;
+            white-space: nowrap;
+        }
+    }
+    .right_side, .right-side-mobile {
+        display: flex;
+        align-items: center;
+        span {
+            font-weight: bold;
+            font-size: 14px;
+            color: #707070;
+        }
+        a {
+            color: var(--body-color);
+            padding-left: 12px;
+            padding-right: 40px;
+            font-size: 18px;
+            white-space: nowrap;
+        }
+        img {
+            cursor: pointer;
+        }
+        .cart {
+            margin: 0px 20px;
+        }
+    }
+}
+
+.screen_companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1443px;
+    margin: 0 auto;
+    .comp_logos {
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: space-between;
+        width: 100%;
+        img {
+            max-width: 100%;
+            object-fit: cover;
+            margin: 10px 0px;
+        }
+    }
+}
+
+.screen_questions {
+    width: 1443px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    hr {
+        border: 1px solid #154796;
+        opacity: 0.24;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid var(--main-color);
+        padding: 62px 0px;
+        h2 {
+            width: 63em;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+            color: #7E7D8D;
+            line-height: 30px;
+        }
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 94px;
+        input {
+            height: 30px;
+            border: none;
+            border-bottom: 1px solid #7E7D8D;
+            margin-top: 15px;
+            background: none;
+        }
+
+        input::placeholder {
+            color: #7E7D8D;
+            font-size: 16px; 
+            font-family: "Gilroy";   
+        }
+    }
+    .send {
+        display: flex;
+        align-items: center;
+        p {
+            font-size: 14px;
+            color: #7E7D8D;
+            margin-left: 30px;
+        }
+    }
+}
+
+.screen_employers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .people {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .employer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 20px;
+            span {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+                color: #7E7D8D;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: #0D264E;
+    .footer_main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 0px;
+        .f_top {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 50px;
+            .navigation {
+                display: flex;
+                flex-direction: column;
+                max-width: 300px;
+                margin-bottom: 30px;
+                img {
+                    max-width: 50px;
+                    margin-bottom: 50px;
+                }
+                span {
+                    margin-bottom: 26px;
+                    color: white;
+                }
+                a {
+                    font-size: 16px;
+                    color: #fff;
+                    padding-bottom: 10px;
+                    opacity: .7;
+                }
+            }
+        }
+        .f_bottom {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid white;
+            padding-top: 28px;
+            color: white;
+            p {
+                opacity: 0.7;
+                padding-bottom: 10px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+        
+    }
+}

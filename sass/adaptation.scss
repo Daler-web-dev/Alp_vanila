@@ -1,0 +1,187 @@
+@media only screen and (max-width: 1918px) {
+    .screen_companies {
+        .comp_logos {
+            width: 100%;   
+        }
+    }
+    .screen_questions {
+        .question {
+            width: 100%;
+        }
+    }
+    .screen_employers {
+        .people {
+            width: 100%;
+            .employer {
+                width: 24%;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .comp_logos {
+        a {
+            margin-right: 50px;
+        }
+    }
+    .screen_questions {
+        .question {
+            width: 100%;
+            h2 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    form {
+        h1 {
+            font-size: 45px !important;
+        }
+    }
+    .screen_employers {
+        h1 {
+            font-size: 45px !important;
+        }
+        .people {
+            width: 100%;
+            .employer {
+                span {
+                    font-size: 16px !important;
+                }
+                p {
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .screen_companies {
+        h1 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .screen_questions {
+        h1 {
+            font-size: 35px !important;
+        }
+        .question {
+            h2 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 10px;
+                line-height: 20px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .screen_companies {
+        h1 {
+            font-size: 25px;
+        }
+        .comp_logos {
+            a {
+                margin-right: 50px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .screen_questions {
+        h1 {
+            font-size: 25px !important;
+        }
+        .question {
+            flex-wrap: wrap;
+            width: 100%;
+            h2 {
+                font-size: 14px;
+            }
+            p {
+                font-size: 10px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .screen_employers {
+        padding-bottom: 200px;
+        .people {
+            .employer {
+                padding-bottom: 20px;
+            }
+        }
+    }
+    .navigation {
+        margin-right: 18px;
+    }
+    .side-bar {
+        width: 50% !important;
+    }
+    .modal-bg {
+        left: 50% !important;
+    } 
+}
+
+@media only screen and (max-width: 650px) {
+    .send {
+        .active_button {
+            max-width: 143px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin: 0px !important;
+        }
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .f_top, .f_bottom {
+        flex-direction: column;
+        border: none !important;
+    }
+    .screen_questions {
+        .question {
+            border: none !important;
+            padding: 15px 0px !important;
+            width: 100% !important;
+            h2 {
+                width: 100% !important;
+                font-size: 16px !important;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .f_top {
+        flex-wrap: wrap !important; 
+    }
+    .products {
+        .item {
+            .description {
+                .active_button {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
